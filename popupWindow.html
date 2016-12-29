@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>弹窗</title>
+    </head>
+
+
+    <body>
+		<script src="jquery.js"></script>
+		<script src="PopupWindow.js"></script>
+		
+		<!--
+		<script id="题1">
+			GuaAlert("注意", "这是一个弹窗")
+		</script>
+		-->
+		<!--
+		<script id="题2">
+		    GuaAlert2("注意", "这是一个弹窗", function(r) {
+				console.log(r)
+			})
+		</script>
+		-->
+		<!--
+		<script id="题3">
+			GuaPrompt("注意", function(clickOk, input) {
+				console.log(clickOk, input)
+			})
+		</script>
+		-->
+	
+		<script id="题4">
+		    var actions = ["第一", "第二", "第三"]
+			GuaActions("注意", actions, function(index) {
+				console.log(index)
+			})
+		</script>
+		
+    </body>
+</html>
